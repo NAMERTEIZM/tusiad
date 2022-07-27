@@ -1,0 +1,100 @@
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#login-container{
+  /*  border: 2px solid red; */
+    max-width:1326px;
+    max-height: auto;
+    background-image: url("img/mavi.jpg");
+    background-position: 0% 100%;
+    background-size:1326px 86px;
+    background-repeat: no-repeat;
+
+    
+    
+
+}
+#deneme{
+   /* border: 2px solid rgb(21, 255, 0); */
+    display: flex;
+    width:1326px ;
+    height:400px;
+    padding-top:52px;
+    background-image: url("img/sekiller.png");
+    background-repeat:no-repeat;
+    background-position:0% 100%;   
+    background-size:547px 245px ;
+}
+#bina{
+    display: flex;
+    padding-left: 21px;
+    max-width:310px;
+    max-height: 348px;
+    z-index: 2;
+}
+#sus{
+
+display: flex;
+position: static;
+float: left;
+z-index: 1;
+
+width:547px;
+height: 245px;
+
+}
+/*
+#baslik{
+    font-size: 40px;
+}
+*/
+
+#baslik{
+    text-align: center;
+}
+
+#buton{
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    display:flex;
+    width:207px;
+    height: 50px;
+    margin-top: 280px;
+    margin-left: 325px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 0.08px;
+    text-align: left;
+    color: #0b109f;
+  }
+  #baslik{
+    text-decoration: none;
+    font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.18;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #0b109f;
+    
+
+  }
+  #yazilar p{
+    margin-top: 20px;
+    
+  }
+  
+
+
